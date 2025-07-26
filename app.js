@@ -1,7 +1,7 @@
 import { Input } from './input.js';
 
-const supabaseUrl = 'https://gqbeyhseepsnhxjblxzh.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdxYmV5aHNlZXBzbmh4amJseHpoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3Njk5NDksImV4cCI6MjA1ODM0NTk0OX0.c-3qmp9WTVOEVMlJnSS4b128roCBHd978t3lGebWq4s';
+const supabaseUrl = 'https://tshebftxpkqcxxrylmzy.supabase.co';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRzaGViZnR4cGtxY3h4cnlsbXp5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM1NDMzNDgsImV4cCI6MjA2OTExOTM0OH0.oQhvafkok6gK8kKQjT6NZPI8cRwBvRSfCqkOPkqxZcE';
 const supabase = window.supabase.createClient(supabaseUrl, supabaseAnonKey);
 
 let channel = null;
